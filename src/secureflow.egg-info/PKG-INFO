@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: secureflow
+Version: 0.1.0
+Summary: Security-gated multi-agent workspaces
+Requires-Python: >=3.11
+Requires-Dist: pydantic>=2
+Requires-Dist: httpx
+Requires-Dist: rich
+Provides-Extra: classifier
+Requires-Dist: transformers; extra == "classifier"
+Requires-Dist: torch; extra == "classifier"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"

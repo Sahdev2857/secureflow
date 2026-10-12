@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.jsonl
+!benchmarks/assembly/data/*.jsonl
+examples/research_write_publish/published/*
+!examples/research_write_publish/published/.gitkeep
+benchmarks/assembly/results/*
+!benchmarks/assembly/results/.gitkeep
